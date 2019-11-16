@@ -1,0 +1,171 @@
+.nomargin{
+    margin: 0px !important;
+}
+.nopadding{
+    padding: 0px !important;
+}
+.p-30{
+    padding: 30px;
+}
+.logoAtma{
+    display: flex;
+    padding: 30px;
+    .pictureLogo{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        img{
+            width: 60px;
+            height: auto;
+        }
+    }
+    .sistemName{
+    
+    }
+}
+.loginForm{
+    padding: 30px;
+    width: 100%;
+    .headerForm{
+        strong{
+            font-size: 30px;
+        }
+        span{
+            color: #a8a3a3;
+        }
+    }
+}
+.contentForm{
+    margin-top: 10px;
+    .bodyForm{
+        .fieldControll{
+            margin-top: 10px;
+            width: 100%;
+            .labelField{
+                font-size: 16px;
+                font-weight: bold;
+                span{
+
+                }
+            }
+            .inputField{
+                height: 50px;
+                input{
+                    width: 100%;
+                    height: 40px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 5px;
+                    border: solid 1px#919191;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+            .withIcon{
+                display: flex;
+                position: relative;
+                align-items: center;
+                input{
+                    padding-right: 40px;
+                }
+                .v-icon{
+                    position: absolute;
+                    right: 10px;
+                }
+            }
+        }
+    }
+    .footerForm{
+        button{
+            text-align: center;
+            width: 100%;
+            background:#4d7abd;
+            color:white;
+            height: 40px;
+            border-radius: 5px;
+            font-weight: bold;
+            filter: grayscale(0.3);
+            transition: all 1s;
+        }
+        button:hover{
+            filter: grayscale(0);
+            transition: all 1s;
+        }
+    }
+}
+.loginBg{
+    background: url('../assets/Gedung-Bonaventura.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m-t-40{
+    margin-top: 40px;
+}
+.errorMsg{
+    color:white;
+    background:#ff00005e;
+    border: solid 2px red;
+    border-radius: 5px;
+    height: 36px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.showErrorMsg{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.fieldInfo{
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    visibility: hidden;
+}
+.showFieldInfo{
+    visibility: visible;
+}
+
+.mediumLogo{
+    img{
+        width: 40px !important;
+    }
+    .sistemName{
+        font-size: 11px !important;
+    }
+}
+
+.dateField .select, .dateField .select select{
+    width: 100%
+}
+
+.displayDate{
+  display: flex;
+  position: relative;
+}
+.dateIcon{
+  border: solid 1px #ddd;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 3px;
+  background: #f5f5f5;
+}
+.dateDisplay{
+    font-size: 16px;
+    width: 96px;
+    height: 40px;
+    border: solid 1px #ddd;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+.primary, .v-btn--active{
+  background: #26316f !important;
+  color: white;
+}
